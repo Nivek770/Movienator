@@ -28,7 +28,7 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "deploy": "react-script start",
+    "deploy": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
     "start": "WATCHPACK_POLLING=true react-scripts start",
     "install-deploy": "npm install && npm run deploy",
     "install-start": "npm install && npm start",
