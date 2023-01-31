@@ -30,7 +30,6 @@
   "scripts": {
     "deploy": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
     "start": "WATCHPACK_POLLING=true react-scripts start",
-    "install-deploy": "npm install && npm run deploy",
     "install-start": "npm install && npm start",
     "install-temp": "npm install && echo 'NO TESTS YET'",
     "install-lint": "npm install && eslint --ignore-path .gitignore . --ext .ts --ext .tsx",
